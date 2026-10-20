@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://escp-ai-society-concept.vercel.app/sitemap.xml
+Sitemap: https://escp-ai-society-project.vercel.app/sitemap.xml

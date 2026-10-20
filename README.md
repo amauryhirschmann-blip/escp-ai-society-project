@@ -23,11 +23,11 @@ Proposition de site immersif pour ESCP AI Society, l'association intercampus d'i
 - `og-image.jpg` : l'image d'aperçu affichée quand le lien est partagé sur les réseaux ;
 - `robots.txt` et `sitemap.xml` : les indications pour les moteurs de recherche.
 
-## Avant la mise en ligne
+## Mise en ligne
 
-1. **Domaine** : remplacez `https://escp-ai-society-concept.vercel.app` par votre vrai domaine Vercel dans `index.html` (balises `og:` et `canonical`), `robots.txt` et `sitemap.xml`.
-2. **Contact RGPD** : renseignez l'adresse e-mail du responsable du traitement dans la politique de confidentialité (passage surligné « à compléter »).
-3. **Mesure d'audience** : activez Web Analytics dans les réglages du projet Vercel. Le site ne la charge qu'après accord du visiteur, et elle fonctionne sans cookie.
+- **Adresse du site** : [escp-ai-society-project.vercel.app](https://escp-ai-society-project.vercel.app/). Elle est déjà renseignée dans `index.html` (balises `og:` et `canonical`), `robots.txt` et `sitemap.xml`. Si l'adresse change, remplacez-la dans ces trois fichiers.
+- **Contact RGPD** : renseigné dans la politique de confidentialité.
+- **Mesure d'audience** : activez Web Analytics dans les réglages du projet Vercel, puis redéployez. Le site ne la charge qu'après accord du visiteur, et elle fonctionne sans cookie.
 
 ## Checklist de mise en ligne
 
