@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page introuvable · ESCP AI Society concept</title>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1033'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-size='26' font-weight='900' fill='%23ffffff'%3EAI%3C/text%3E%3Ccircle cx='50' cy='14' r='5' fill='%23ff2d6f'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@700&family=Unbounded:wght@800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #eef2fb; --ink: #0a1033; --muted: #3a4470; --blue: #2448e8; --pink: #ff2d6f; --gold: #f5c451; color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(120% 80% at 50% 0%, #ffffff, var(--bg) 60%); color: var(--ink);
+      font-family: "Inter", system-ui, sans-serif; display: grid; grid-template-rows: auto 1fr; }
+    .bar { background: var(--gold); color: #1a1000; font: 700 11px "JetBrains Mono", monospace; letter-spacing: .04em; text-align: center; padding: 6px 16px; }
+    main { display: grid; place-items: center; padding: 48px 16px; text-align: center; }
+    .wrap { display: grid; gap: 18px; justify-items: center; max-width: 620px; }
+    .code { font: 900 clamp(96px, 26vw, 220px)/.85 "Unbounded", sans-serif; letter-spacing: -.06em; color: transparent; -webkit-text-stroke: 2px var(--ink); }
+    .code span { color: var(--pink); -webkit-text-stroke: 0; }
+    .bill { width: min(260px, 70vw); aspect-ratio: 512 / 232; border-radius: 6px; background: linear-gradient(135deg, #dfeedd, #9cc896); border: 3px solid #173f2a;
+      display: grid; place-items: center; font: 800 22px "Unbounded", sans-serif; color: #173f2a; transform: rotate(-8deg); box-shadow: 0 18px 40px rgba(10,16,51,.18);
+      animation: fall 4s ease-in-out infinite; }
+    @keyframes fall { 50% { transform: rotate(6deg) translateY(10px); } }
+    h1 { margin: 0; font: 800 clamp(24px, 4vw, 36px)/1.1 "Unbounded", sans-serif; letter-spacing: -.03em; text-wrap: balance; }
+    p { margin: 0; color: var(--muted); font-size: 17px; line-height: 1.55; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 6px; }
+    a.btn { display: inline-flex; align-items: center; height: 50px; padding: 0 24px; border-radius: 999px; font-weight: 600; text-decoration: none; }
+    .btn--main { background: var(--ink); color: #fff; }
+    .btn--ghost { border: 1px solid rgba(10,16,51,.2); color: var(--ink); background: #fff; }
+    a.btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+    @media (prefers-reduced-motion: reduce) { .bill { animation: none; } }
+  </style>
+</head>
+<body>
+  <div class="bar" role="note">Projet étudiant ESCP · concept non officiel, pas le site d'ESCP AI Society</div>
+  <main>
+    <div class="wrap">
+      <div class="code" aria-hidden="true">4<span>0</span>4</div>
+      <div class="bill" aria-hidden="true">ESCP AI</div>
+      <h1>Ce billet s’est envolé.</h1>
+      <p>La page que vous cherchez n’existe pas ou a été déplacée. Revenez à l’accueil pour retrouver nos projets, l’agenda et le programme de Mentorat IA.</p>
+      <div class="actions">
+        <a class="btn btn--main" href="/">Retour à l’accueil</a>
+        <a class="btn btn--ghost" href="/#faq">Consulter la FAQ</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
